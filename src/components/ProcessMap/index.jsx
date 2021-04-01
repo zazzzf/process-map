@@ -23,7 +23,6 @@ class ProcessMap extends Component {
     this.setState(Object.assign(this.state, { data }));
   }
   secondClass(_t, i, $i, t) {
-    console.log(t.extend)
     let _this = this;
     var _i = i.length;
     var classStr = 'map-circle_box flex_center ';
@@ -60,7 +59,6 @@ class ProcessMap extends Component {
       }
       return classStrn;
     }
-    console.log(this.props.nodeData.extend)
     if (!this.props.nodeData.extend) {
       if (i.length === 1) {
         classStr += onlyOneNode();
