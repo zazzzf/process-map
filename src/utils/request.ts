@@ -44,6 +44,7 @@ const errorHandler = (error: { response: Response }): Response => {
 const request = extend({
   errorHandler, // 默认错误处理
   credentials: 'include', // 默认请求是否带上cookie
+  prefix: 'https://www.fastmock.site/mock/60d721d0c3d19ca38cdafdc48e0b31aa/api',
 });
 
 export default request;
