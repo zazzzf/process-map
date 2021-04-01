@@ -13,7 +13,7 @@ export default defineConfig({
     hmr: true,
   },
   history: {
-    type: 'browser',
+    type: 'hash',
   },
   locale: {
     // default zh-CN
@@ -41,4 +41,6 @@ export default defineConfig({
     basePath: '/',
   },
   esbuild: {},
+  base: '/process-map/',
+  publicPath: '/process-map/'
 });

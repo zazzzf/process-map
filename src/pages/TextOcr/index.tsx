@@ -45,6 +45,7 @@ export default () => {
     <PageContainer>
       <Card id="hhhhhhha">
         <Alert message="请上传图片文件，识别结果会显示在下方" showIcon type="info" />
+        <Typography.link>需要启动后台服务：https://github.com/zazzzf/baidu-pic-ocr</Typography.link>
         <div style={{ marginTop: 20 }}>
           <Upload maxCount={1} {...props} listType="picture-card">
             <PlusOutlined />
