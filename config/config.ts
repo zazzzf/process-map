@@ -40,6 +40,7 @@ export default defineConfig({
   manifest: {
     basePath: '/',
   },
+  
   esbuild: {},
   base: '/process-map/',
   publicPath: '/process-map/'
