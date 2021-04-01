@@ -1,0 +1,83 @@
+// 选中状态
+.depth-selected {
+  border: solid 2px @lego__color--primary;
+  .circel_text {
+    color: @lego__color--primary;
+  }
+  .third_text {
+    color: @lego__color--primary;
+  }
+}
+.depth-focus {
+  .map-third_box_center,
+  .third-box_container_line,
+  .map-third_box_last,
+  .third-box_row_item,
+  .second-box_row_item {
+    &::after,
+    &::before {
+      border-color: @lego__color--primary;
+    }
+  }
+  //.map-circle_box,
+  //.map-third_box,
+  //.map-circle_box-small,
+  //.map-third_box-small{
+  //    border-color: @lego__color--primary;
+  //}
+  .third-box_row_item,
+  .second-box_row_item {
+    &::after {
+      background-color: @lego__color--primary;
+    }
+  }
+}
+
+.depth-selected {
+  border: solid 2px @lego__color--primary;
+  .circel_text {
+    color: @lego__color--primary;
+  }
+  .third_text {
+    color: @lego__color--primary;
+  }
+}
+.third-checked {
+  color: @lego__color--primary;
+  font-weight: bold;
+}
+.depth2-clicked {
+  /* 去掉选中2级后 连线变蓝色
+    .map-third_box_center,
+    .third-box_container_line,
+    .map-third_box_last,
+    .third-box_row_item,
+    .map-third_box_center-small,
+    .third-box_container_line-small,
+    .map-third_box_last-small,
+    .third-box_row_item-small,
+    .second-box_row_item,
+    .second-box_row_item-small
+    {
+        &::after, &::before{
+            border-color: @lego__color--primary;
+        }
+    }
+
+     */
+  // .map-circle_box,
+  // .map-third_box,
+  // .map-circle_box-small,
+  // .map-third_box-small{
+  //     color: @lego__color--primary;
+  //     font-weight: bold;
+  // }
+  .third-box_row_item,
+  .third-box_row_item-small,
+  .second-box_row_item,
+  .second-box_row_item-small {
+    &::after {
+      background-color: @lego__color--primary;
+    }
+  }
+}

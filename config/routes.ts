@@ -34,6 +34,18 @@
                 component: './Welcome',
               },
               {
+                path: '/textOcr',
+                name: 'textOcr',
+                icon: 'file',
+                component: './TextOcr',
+              },
+              {
+                path: '/processMap',
+                name: 'processMap',
+                icon: 'file',
+                component: './ProcessMap',
+              },
+              {
                 path: '/admin',
                 name: 'admin',
                 icon: 'crown',

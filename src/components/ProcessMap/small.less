@@ -1,0 +1,238 @@
+// size --small
+@process-second-font-size-small: 16px;
+@process-second-text-line-height-small: 22px;
+
+@process-map-third-box_width-small: 136px;
+@process-map-third-box_height-small: 80px;
+@process-map-third-circle_width-small: 120px;
+
+@process-map-third-box_margin_y-small: 20px;
+@process-map-third-box_margin_x-small: 8px;
+@process-map-third-box_position-small: 20px;
+
+.process-row-box-small {
+  &:extend(.process-row-box all);
+  .circel_text {
+    width: 92px;
+    max-height: 48px;
+    font-size: @process-second-font-size-small;
+    line-height: @process-second-text-line-height-small;
+  }
+  .map-circle_box {
+    z-index: 1;
+    width: @process-map-third-circle_width-small;
+    height: @process-map-third-circle_width-small;
+    margin: @process-map-third-box_margin_y-small 24px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .map-circle_box_tree {
+    z-index: 1;
+    width: @process-map-third-circle_width-small;
+    height: @process-map-third-circle_width-small;
+    margin: @process-map-third-box_margin_y-small 24px;
+    border-radius: 50%;
+  }
+  .map-third_box {
+    z-index: 1;
+    width: @process-map-third-box_width-small;
+    height: @process-map-third-box_height-small;
+    margin: @process-map-third-box_margin_y-small @process-map-third-box_margin_x-small;
+    padding: 0 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:extend(.map-third_box all);
+  }
+  .map-third_box_tree {
+    z-index: 1;
+    width: @process-map-third-box_width-small;
+    height: @process-map-third-box_height-small;
+    margin: @process-map-third-box_margin_y-small @process-map-third-box_margin_x-small;
+    border-radius: 8px;
+  }
+  .third-box_row_item {
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-left: @process-map-line-border-size dashed @process-map-border-color;
+      transform: translateY(-100%);
+      content: '';
+    }
+  }
+  .second-box_row_item {
+    &::before {
+      height: @process-map-third-box_margin_y-small;
+    }
+  }
+  .map-third_box_center {
+    &::before {
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-left: @process-map-line-border-size dashed @process-map-border-color;
+      content: '';
+    }
+    &::after {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-left: @process-map-line-border-size dashed @process-map-border-color;
+      transform: translateY(-100%);
+      content: '';
+    }
+    &_end {
+      &::after {
+        border: none !important;
+      }
+    }
+    &_first {
+      &::before {
+        border: none;
+      }
+    }
+  }
+  .map-third_box_first {
+    &:extend(.map-third_box_center);
+    &::before {
+      border-top-left-radius: 6px;
+    }
+    &::after {
+      border-bottom-left-radius: 6px;
+    }
+  }
+  .map-third_box_last {
+    &::before {
+      position: absolute;
+      top: 0%;
+      right: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-right: @process-map-line-border-size dashed @process-map-border-color;
+      border-top-right-radius: 6px;
+      content: '';
+    }
+    &::after {
+      position: absolute;
+      top: 100%;
+      right: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-right: @process-map-line-border-size dashed @process-map-border-color;
+      border-bottom-right-radius: 6px;
+      transform: translateY(-100%);
+      content: '';
+    }
+  }
+  .third-box_container_line {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0%;
+      width: 100%;
+      height: @process-map-third-box_margin_y-small;
+      border-top: @process-map-line-border-size dashed @process-map-border-color;
+      border-right: none;
+      border-left: none;
+      content: '';
+    }
+    &::after {
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      width: 100%;
+      height: @process-map-third-box_margin_y-small;
+      border-bottom: @process-map-line-border-size dashed @process-map-border-color;
+      transform: translateY(-100%);
+      content: '';
+    }
+    &:first-child {
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        height: @process-map-third-box_margin_y-small;
+        border-top: @process-map-line-border-size dashed @process-map-border-color;
+        border-top-left-radius: 6px;
+        content: '';
+      }
+      &::after {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 50%;
+        height: @process-map-third-box_margin_y-small;
+        border-top: none;
+        border-bottom: @process-map-line-border-size dashed @process-map-border-color;
+        border-bottom-left-radius: 6px;
+        transform: translateY(-100%);
+        content: '';
+      }
+    }
+    &:last-child {
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 50%;
+        height: @process-map-third-box_margin_y-small;
+        border-top: @process-map-line-border-size dashed @process-map-border-color;
+        border-top-right-radius: 6px;
+        content: '';
+      }
+      &::after {
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        width: 50%;
+        height: @process-map-third-box_margin_y-small;
+        border-top: none;
+        border-bottom: @process-map-line-border-size dashed @process-map-border-color;
+        border-bottom-right-radius: 6px;
+        transform: translateY(-100%);
+        content: '';
+      }
+    }
+  }
+
+  .map-third_box_first {
+    &:extend(.map-third_box_center-small);
+    &::before {
+      border-top-left-radius: 6px;
+    }
+    &::after {
+      border-bottom-left-radius: 6px;
+    }
+  }
+  .map-third_box_last {
+    &::before {
+      position: absolute;
+      top: 0%;
+      right: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-right: @process-map-line-border-size dashed @process-map-border-color;
+      border-top-right-radius: 6px;
+      content: '';
+    }
+    &::after {
+      position: absolute;
+      top: 100%;
+      right: 50%;
+      width: 50%;
+      height: @process-map-third-box_margin_y-small;
+      border-right: @process-map-line-border-size dashed @process-map-border-color;
+      border-bottom-right-radius: 6px;
+      transform: translateY(-100%);
+      content: '';
+    }
+  }
+}
