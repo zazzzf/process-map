@@ -31,8 +31,8 @@ export default () => {
           textarea += item.words + '\n';
         });
         setText(textarea);
-        settList([...textList, textarea]);
-        console.log(textList);
+        let newTextList = [...textList, textarea]
+        settList(newTextList);
       } else if (info.file.status === 'error') {
         message.error(`${info.file.name} file upload failed.`);
       }
