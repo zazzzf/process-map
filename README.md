@@ -9,6 +9,8 @@
 <a href="https://zazzzf.github.io/process-map" target="_blank">在线预览</a> | 
 <a href="http://www.zhaozhenfa1995.gitee.io/process-map" target="_blank">国内镜像</a> 
 
+ant design pro 的 gh-pages 不知道为何不能提交到github 但是能提交到gitee 所以 这里github 的代码就旧的 React版本以国内镜像为最新
+
 ### Vue
 
 <a href="https://zazzzf.github.io/vue-process-map/" target="_blank">在线预览</a> | 
