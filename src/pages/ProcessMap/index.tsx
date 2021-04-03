@@ -73,8 +73,8 @@ export default (): React.ReactNode => {
     }else {
       list = initList(data)
     }
-    console.log(list)
-    setData(list)
+   
+    setData([...list])
   }
   function changeExtend(e){
     closeAll(e)
