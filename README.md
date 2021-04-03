@@ -25,7 +25,7 @@ prev: ../Vue/富文本编辑器.md
 话不多说，先上页面截图~
 <a href="http://www.zhaozhenfa1995.gitee.io/process-map" target="_blank">在线预览</a>
 
-<img src="../../.vuepress/public/Snipaste_2021-04-02_09-15-03.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/Snipaste_2021-04-02_09-15-03.png" class="zoom-custom-imgs" />
 
 
 
@@ -35,17 +35,17 @@ prev: ../Vue/富文本编辑器.md
 
 ### Color
 
-<img src="../../.vuepress/public/Snipaste_2021-04-02_10-19-33.png" class="zoom-custom-imgs" />
-<img src="../../.vuepress/public/Snipaste_2021-04-02_10-26-34.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/Snipaste_2021-04-02_10-19-33.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/Snipaste_2021-04-02_10-26-34.png" class="zoom-custom-imgs" />
 
 ### Size 
 
-<img src="../../.vuepress/public/Snipaste_2021-04-02_10-27-29.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/Snipaste_2021-04-02_10-27-29.png" class="zoom-custom-imgs" />
 
 ### 全部收起/展开
 
-<img src="../../.vuepress/public/ex.png" class="zoom-custom-imgs" />
-<img src="../../.vuepress/public/ex1.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/ex.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/ex1.png" class="zoom-custom-imgs" />
 
 
 ## Less 变量
@@ -267,5 +267,5 @@ export default function (data) {
 
 <a href="http://www.zhaozhenfa1995.gitee.io/vue-process-map" target="_blank">在线预览</a>
 
-<img src="../../.vuepress/public/Snipaste_2021-04-02_14-41-09.png" class="zoom-custom-imgs" />
+<img src="https://zazzzf.github.io/assets/img/Snipaste_2021-04-02_14-41-09.png" class="zoom-custom-imgs" />
 
