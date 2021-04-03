@@ -4,12 +4,12 @@
 
 <!-- more -->
 
-### demo
+### React
 
 <a href="https://zazzzf.github.io/process-map" target="_blank">在线预览</a> | 
 <a href="http://www.zhaozhenfa1995.gitee.io/process-map" target="_blank">国内镜像</a> 
 
-Vue
+### Vue
 
 <a href="https://zazzzf.github.io/vue-process-map/" target="_blank">在线预览</a> | 
 <a href="http://www.zhaozhenfa1995.gitee.io/vue-process-map" target="_blank">国内镜像</a> 
