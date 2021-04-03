@@ -15,7 +15,10 @@
 <a href="http://www.zhaozhenfa1995.gitee.io/vue-process-map" target="_blank">国内镜像</a> 
 
 
-话不多说，先上页面截图~
+话不多说，先上页面截图~ 具体使用及设计思路在个人博客
+
+<a href="https://zazzzf.github.io/" target="_blank">BLOG</a> | 
+<a href="http://www.zhaozhenfa1995.gitee.io" target="_blank">国内镜像</a> 
 
 <img src="https://zazzzf.github.io/assets/img/Snipaste_2021-04-02_09-15-03.2df1736a.png" class="zoom-custom-imgs" />
 
