@@ -1,22 +1,6 @@
----
-title: React流程图组件
-date: 2021-04-02
-categories:
-  - React
-  - Webpack
-tags:
-  - React
-  - Webpack
-next: ../notes/web笔记.md
-prev: ../Vue/富文本编辑器.md
----
 
-::: tip
 
 在ant design pro中做的一个流程图组件，支持自定义颜色， 尺寸等
-
-:::
-
 
 <!-- more -->
 
@@ -126,9 +110,7 @@ prev: ../Vue/富文本编辑器.md
 ]
 
 ```
-::: warning
 在这里 组件的nodeData参数 跟接口返回是一样的， 有需要可以自行clone修改源码
-::: 
 
 按照接口返回数据，观察所需渲染出的页面，考虑肯定是需要用到for循环实现，但是按照节点数据又渲染不出预期的结果，
 所以对接口的数据进行format
